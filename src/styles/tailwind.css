@@ -1,0 +1,13 @@
+@import './base.css';
+@import './components.css';
+@import './utilities.css';
+
+.bg-gradient-1,
+.hover\:bg-gradient-1:hover {
+  @apply bg-gradient-to-br from-brand-charcoal to-brand-grey;
+}
+
+.bg-gradient-2,
+.hover\:bg-gradient-2:hover {
+  @apply bg-gradient-to-br from-sup-red to-sup-orange;
+}

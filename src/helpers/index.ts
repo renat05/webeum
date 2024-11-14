@@ -1,0 +1,1 @@
+export { HighLightWords } from './highlightWords'
